@@ -13,7 +13,6 @@ router.post('/talk', function(req, res, next) {
     res.json({});
   });
 
-
 });
 
 module.exports = router;
