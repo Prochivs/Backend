@@ -3,8 +3,7 @@
 /**
  * Module dependencies.
  */
-
-var app = require('../app');
+var app = require('../index');
 var debug = require('debug')('talking-avatar-backend:server');
 var http = require('http');
 
