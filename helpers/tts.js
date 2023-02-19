@@ -76,7 +76,7 @@ const textToSpeech = async (text, voice)=> {
             result => {
                 
                 synthesizer.close();
-                resolve({blendData, filename: `/speech-${randomString}.mp3`});
+                resolve({blendData, filename: `./public/speech-${randomString}.mp3`});
 
             },
             error => {
